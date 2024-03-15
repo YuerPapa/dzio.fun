@@ -10,7 +10,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Developer() {
   return (
     <span className="group">
-      <span className="font-mono">&lt;</span>开发者
+      <span className="font-mono">&lt;</span>开发初学者
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <span>探索者</span>
     </span>
   )
 }
@@ -80,10 +80,10 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是 Dzio，
+          <PeekabooLink href="https://dzio.fun">这个网站</PeekabooLink>
+          维护者，UI设计师，目前从事 to B 设计工作。
+          我热衷于创新设计，但更爱生活里的每一份乐趣，我享受在未知领域里探索，
         </Balancer>
       </motion.p>
       <motion.div
@@ -99,33 +99,18 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
+          href="https://twitter.com/Dzio_0"
           aria-label="我的推特"
           platform="twitter"
         />
         <SocialLink
-          href="https://cali.so/youtube"
-          aria-label="我的 YouTube"
-          platform="youtube"
-        />
-        <SocialLink
-          href="https://cali.so/bilibili"
-          aria-label="我的 Bilibili"
-          platform="bilibili"
-        />
-        <SocialLink
-          href="https://cali.so/github"
-          aria-label="我的 GitHub"
-          platform="github"
-        />
-        <SocialLink
-          href="https://cali.so/tg"
+          href="https://t.me/dzio_0"
           aria-label="我的 Telegram"
           platform="telegram"
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:hi@dzio.fun"
           aria-label="我的邮箱"
           platform="mail"
         />
