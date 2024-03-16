@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Dzio，
+          👋 Hi ,我是 Dzio，
           <PeekabooLink href="https://dzio.fun">这个网站</PeekabooLink>
           维护者，UI设计师，目前从事 to B 设计工作。
           我热衷于创新设计，但更爱生活里的每一份乐趣，我享受在未知领域里探索。
