@@ -5,7 +5,7 @@ import { Container } from '~/components/ui/Container'
 
 const title = '我的项目'
 const description =
-  '多年来，我一直在做参与各式各样的项目，在这里，我精心挑选并汇集了那些我认为表现出色的项目，作为我职业旅程中的亮点集锦。'
+  '多年来，我一直在做参与各式各样的项目，在这里，我精心挑选并汇集了那些我认为表现出色的项目，作为我职业旅程中的标记点。'
 export const metadata = {
   title,
   description,
@@ -30,7 +30,7 @@ export default function ProjectsPage() {
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           多年来，我一直在做各种各样的项目，有<b> B端</b>的，有<b> C端</b>
           的，有<b>平面设计</b>，也有对于设计的<b>探索</b>
-          ，在这里，我精心挑选并汇集了那些我认为表现出色的项目，作为我职业旅程中的亮点集锦。
+          ，在这里，我精心挑选并汇集了那些我认为表现出色的项目，作为我职业旅程中的标记点。
         </p>
       </header>
       <div className="mt-16 sm:mt-20">
